@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<input id='TxtCodCliente' type='text' name='TxtCodCliente' class="form-control" onchange='fncGetCustomerName("aplicacion","TxtCodCliente","divCustomer");' onkeypress="return fncValidateKey(event, 'number');">
+		
+		<select id='orderType'>
+			<option value='ND'>Publicidad Impresa ND</option>
+			<option value='EDIPOSA'>Publicidad Impresa EDIPOSA</option>
+		</select>
+
+		<input id='Si' type='radio' name='group3' value='SI'>Si
+		<input id='No' type='radio' name='group3' value='NO' checked='true'>No
+		
+		<input id='TxtNumeroOrden' type='text' class="form-control" name='TxtNumeroOrden' onkeypress="">		
+		<input id='TxtNumeroOrden' type='text' class="form-control" name='TxtNumeroOrden' onkeypress="">
+
+		<img src='general_repository/image/user.png' height='23' width='23' onclick='fncModal("gen_customer_search.php")' title='Click para Buscar Cliente'>
+
+		<button>
+			Hola esto es un <b>botón</b>
+			<br>
+			<br>
+			Puedo poner saltos de línea en él!
+			<hr>
+			Y otras cosas
+			<br>
+			<img src="http://www.desarrolloweb.com/images/logo_desarrollo_web.gif" width="261" height="35" alt="">
+		</button>
+	</body>
+</html>
